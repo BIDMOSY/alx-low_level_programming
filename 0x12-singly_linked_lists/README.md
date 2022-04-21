@@ -1,17 +1,20 @@
-#The 0x12-singly_linked_list by Badmus Abdul-Mumin
-##This directory contains functions that to the following:
-0-print_list.c that prints all the elements of a list_t list.
+# Singly linked lists
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about linked lists in **C language**.
 
-1-list_len.c that returns the number of elements in a linked list_t list.
+## Technologies
+* C files are compiled using `gcc 4.8.4`
+* C files are written according to the C90 standard
+* Tested on Ubuntu 14.04 LTS
 
-2-add_node.c that adds a new node at the beginning of a list_t list.
+## Files
+All of the following files are programs written in C:
 
-3-add_node_end.c that adds a new node at the end of a list_t list.
-
-4-free_list.c frees a list_t list.
-
-100-first.c prints a sentence before the main function is executed.
-
-101-hello_holberton.asm is 64-bit program in assembly that prints "Hello, Holberton", followed by a new line.
-
-lists.h is the header contains definition of the list_t struct and all the prototypes of the above functions.
+| Filename | Description |
+| -------- | ----------- |
+| `0-print_list.c` | Prints all the elements of a `list_t` list |
+| `1-list_len.c` | Returns the number of elements in a linked `list_t` list |
+| `2-add_node.c` | Adds a new node at the beginning of a `list_t` list |
+| `3-add_node_end.c` | Adds a new node at the end of a `list_t` list |
+| `4-free_list.c` | Frees a `list_t` list |
+| `100-first.c` | Prints a message before main function is executed |
+| `101-hello_holberton.asm` | Assembly code that prints `Hello, Holberton` only using `printf` function |
